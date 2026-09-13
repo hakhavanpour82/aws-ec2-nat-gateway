@@ -1,0 +1,16 @@
+                    Internet
+                       │
+                Internet Gateway
+                       │
+                Public Subnet
+                 10.0.1.0/24
+                       │
+                ┌──────▼──────┐
+                │   Gateway   │
+                │   EC2/NAT   │
+                └──────┬──────┘
+                       │
+                Private Subnet
+                 10.0.2.0/24
+                   │       │
+                Client-1 Client-2
